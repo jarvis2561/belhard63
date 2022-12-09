@@ -11,7 +11,7 @@ elif a == '/':
     if second_number != 0:
         print(first_number/second_number)
     else:
-        print('Деление на ноль невозможно ')
+        print('Делить на ноль нельзя! ')
 
 
 

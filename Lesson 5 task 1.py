@@ -6,7 +6,7 @@
 i = k = 0
 while i!=5:
     if k%5 and k>5:
-        print(k)
+        print(k )
         i+=1
     k+=1
 
