@@ -3,10 +3,12 @@
 #     print(a)
 # else: print('err')
 
-i = k = 0
-while i!=5:
-    if k%5 and k>5:
-        print(k )
-        i+=1
-    k+=1
-
+n = int(input('n: '))
+m = int(input('m: '))
+k = int(input('k: '))
+numbers = []
+while len(numbers) < n:
+    if not k % m:
+         numbers.append(k)
+    k += 1
+print(numbers)
