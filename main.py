@@ -61,16 +61,3 @@
 #         super().__init__(weight,color,power)
 #         self.max_speed
 
-class Car:
-        def __init__(self, color: str , count_passenger_seats: int, is_baby_seat: bool) -> None:
-            self.color = color
-            self.count_passenger_seats = count_passenger_seats
-            self.is_baby_seat = is_baby_seat
-            self.is_busy = False
-        def __str__(self) -> str:
-            return f'Car {self.count_passenger_seats=}{self.is_baby_seat=}{self.is_busy=}{self.color=}'
-class Taxi(object):
-    def __init__(self, cars: list[Car]):
-        self.cars = cars
-
-    def find_car(self, count_passengger: int,):
