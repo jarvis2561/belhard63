@@ -1,1 +1,1 @@
-INSERT INTO products(title) VALUE('name');
+INSERT INTO products(title) VALUE('das Auto der Leute');

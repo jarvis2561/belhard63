@@ -1,1 +1,1 @@
-SELECT * FROM categories WHERE name like '%Скидка%' ORDER BY id DESC;
+SELECT * FROM categories WHERE name like '%PIZZA%' ORDER BY id DESC;

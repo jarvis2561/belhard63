@@ -1,1 +1,1 @@
-INSERT INTO statuses(name) VARCHAR('prime');
+INSERT INTO statuses(name) VARCHAR('hedgehog');
