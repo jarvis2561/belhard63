@@ -1,0 +1,1 @@
+SELECT order_id FROM order_items WHERE order_id like '%24%';

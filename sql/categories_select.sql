@@ -1,0 +1,1 @@
+SELECT * FROM categories WHERE name like '%Скидка%' ORDER BY id DESC;

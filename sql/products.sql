@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS products(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    title VARCHAR(36),
+    description VARCHAR(140) UNIQUE
+    category_id INTEGER FIRST KEY
+);
