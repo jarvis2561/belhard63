@@ -1,5 +1,0 @@
-CREATE TABLE IF NOT EXISTS orders(
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    user_id INTEGER FOREIGN KEY ('shop') REFERENCES user_id ['shop'][ON UPDATE{SET NULL}],
-    status_id INTEGER FOREIGN KEY ('prime')  REFERENCES status_id ['prime'][ON UPDATE{RESTRICT}]
-);

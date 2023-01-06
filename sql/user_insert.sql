@@ -1,1 +1,2 @@
-INSERT INTO user(name) VALUE('Vag');
+INSERT INTO user(name, email) VALUE(?,?);
+('vag','@')

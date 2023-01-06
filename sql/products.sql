@@ -1,6 +1,7 @@
 CREATE TABLE IF NOT EXISTS products(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    title VARCHAR(36) ('bmw'),
-    description VARCHAR(140) UNIQUE ('Aluminum mount')
-    category_id INTEGER FOREIGN KEY ('category_B') REFERENCES category_id['category_B'][ON UPDATE{NO ACTION}]
+    title VARCHAR(36),
+    description VARCHAR(140) UNIQUE,
+    category_id INTEGER NOT NULL,
+    FOREIGN KEY category_id REFERENCES products(id) ON UPDATE SET NULL
 );

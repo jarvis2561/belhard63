@@ -1,1 +1,1 @@
-SELECT * FROM statuses WHERE name like '%Volswagen%' ORDER BY id ASC;
+SELECT * FROM statuses WHERE name like '%hedgehog%' ORDER BY id ASC;

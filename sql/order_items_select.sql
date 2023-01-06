@@ -1,1 +1,1 @@
-SELECT order_id FROM order_items WHERE order_id like '%first_class%';
+SELECT order_id FROM order_items ORDER BY order_id DESC;

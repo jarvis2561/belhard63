@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS order_items(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    order_id INTEGER NOT NULL ,
+    FOREIGN KEY (order_id) REFERENCES order_items(id) ON DELETE CASCADE,
+    product_id INTEGER NOT NULL,
+    FOREIGN KEY (product_id) REFERENCES order_items(id) ON DELETE CASCADE
+);
